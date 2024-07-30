@@ -31,6 +31,9 @@ body {
 h4{
     color: white;
 }
+h6{
+  color: white;
+ }
 header{
     display: flex;
     flex-direction:row;
@@ -90,10 +93,10 @@ img{
     height: 0%;
  }
  .contenedor {
-	width: 120%;
-	max-width: 1200px;
+	width: 100%;
+	max-width: 1500px;
 	margin: auto;
-	padding: 40px 0;
+	padding: 75px ;
 	/*display: flex;
 	gap: 20px;*/
 
@@ -258,11 +261,6 @@ nav ul li  {
     margin: 30px;
     line-height: 20px;
 }
-
-h6{
-	height: 1%;
-  color: #000;
- }
 .redes{
     font-size: 60px;
     box-shadow: 0px, 5px 10px color(srgb red green blue);
