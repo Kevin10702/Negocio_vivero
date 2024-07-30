@@ -1,6 +1,32 @@
+.* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
 	background-image: linear-gradient(to right, #52eb3a, #15ec6f, #00ec97, #00eab7, #06e7ce, #00e2e3, #23dbf1, #54d3f7, #6ec6ff, #95b6fc, #bba4eb, #d692ce);
 
+}
+.home {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.in-flex{
+      flex: 1;
+      
+}
+.in-flex:first-child{
+    flex: 0;
+    padding: 0px;
+    background-color: #000;
+    margin: 0px;
+
+}
+.in-flexn div {
+    padding: 0px;
+    background-color: #000;
+    margin: 0px;
 }
 h4{
     color: white;
